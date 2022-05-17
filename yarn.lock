@@ -9164,14 +9164,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hornet@workspace:content/build/hornet/production/documentation":
-  version: 0.0.0-use.local
-  resolution: "hornet@workspace:content/build/hornet/production/documentation"
-  dependencies:
-    "@iota-community/iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
-  languageName: unknown
-  linkType: soft
-
 "hpack.js@npm:^2.1.6":
   version: 2.1.6
   resolution: "hpack.js@npm:2.1.6"
@@ -9424,6 +9416,18 @@ __metadata:
   checksum: 5c324d283552b1269cfc13a503aaaa172a280f914e5b81544f3803bc6f06a3b585fb79f66f7c771a2c052db7982c18bf92d001e3b47282e3abbbb4c4cc488d68
   languageName: node
   linkType: hard
+
+"identity-develop@workspace:content/build/identity.rs/develop/documentation":
+  version: 0.0.0-use.local
+  resolution: "identity-develop@workspace:content/build/identity.rs/develop/documentation"
+  dependencies:
+    "@iota-community/iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
+    raw-loader: ^4.0.2
+    remark-code-import: ^0.3.0
+    remark-import-partial: ^0.0.2
+    remark-remove-comments: ^0.2.0
+  languageName: unknown
+  linkType: soft
 
 "identity@workspace:content/build/identity.rs/v0.5.0/documentation":
   version: 0.0.0-use.local
