@@ -1,7 +1,7 @@
 [submodule "content/build/identity.rs/v0.5.0"]
 	path = content/build/identity.rs/v0.5.0
-	url = https://github.com/iotaledger/identity.rs
-	branch = support/v0.5
+	url = https://github.com/dr-electron/identity.rs
+	branch = docs/feat/versioned-support-v0.5
 [submodule "content/build/iota.rs/production"]
 	path = content/build/iota.rs/production
 	url = https://github.com/iotaledger/iota.rs
@@ -20,5 +20,5 @@
 	branch = main
 [submodule "content/build/identity.rs/develop"]
 	path = content/build/identity.rs/develop
-	url = https://github.com/iotaledger/identity.rs
-	branch = dev
+	url = https://github.com/dr-electron/identity.rs
+	branch = docs/feat/versioned-dev
